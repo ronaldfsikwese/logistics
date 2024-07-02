@@ -1,0 +1,54 @@
+name: logistics
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fluentui_icons: ^1.0.0
+  cupertino_icons: ^1.0.6
+
+  # ui packages / animations
+  curved_navigation_bar: ^1.0.3
+  smooth_page_indicator: 1.1.0
+
+  sticky_headers: "^0.3.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # assets
+  assets:
+    - assets/images/
+
+  # Application fonts
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Nunito-Medium.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 900
